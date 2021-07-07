@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories Nodejs site admin</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Nodejs administration</h1>
+        </div>
+    </header>
+    <main class="main container">
+        <div class="tab">
+            <div class="tab-item">
+                <a href="/photos" class="tab-title">PHOTOS</a>
+                <div class="tab-wrapper">
+                    <a href="/photos/category" class="tab-name">Categories</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+                <div class="tab-wrapper">
+                    <a href="/photos/photo" class="tab-name">Photos</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+            </div>
+        </div>
+        <div class="photos-wrapper">
+            <div class="top">
+                <h2 class="title">Add photo</h2>
+            </div>
+            <div class="photos-body">
+                <form class="photos-add-form" method="POST" action="/photos/photo/add">
+                    <div class="input-wrapper">
+                        <span style="font-weight: bold;">Category: </span>
+                        <select name="category_name" class="category_select"></select>
+                        <img src="img/edit.png" alt="edit" width="20px">
+                        <img src="img/plus.png" alt="plus" width="20px">
+                        <img src="img/close.png" alt="close" width="20px">
+                    </div>
+                    <div class="input-wrapper">
+                        <span style="font-weight: bold;">Image url: </span>
+                        <input type="text" name="picture_url">
+                    </div>
+                    <div class="input-wrapper">
+                        <span style="font-weight: bold;">Title: </span>
+                        <input type="text" name="picture_title">
+                    </div>
+                    <div class="input-wrapper">
+                        <span style="font-weight: bold;">Description: </span>
+                        <textarea name="picture_desc" cols="100" rows="10"></textarea>
+                    </div>
+                    <div class="buttons-wrapper">
+                        <button type="button">Save and add another</button>
+                        <button type="button">Save and continue editing</button>
+                        <button type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./js/request.js"></script>
+    <script src="./js/addPhoto.js"></script>
+</body>
+</html>

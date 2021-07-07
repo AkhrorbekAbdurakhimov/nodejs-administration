@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories Nodejs site admin</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Nodejs administration</h1>
+        </div>
+    </header>
+    <main class="main container">
+        <div class="tab">
+            <div class="tab-item">
+                <a href="/photos" class="tab-title">PHOTOS</a>
+                <div class="tab-wrapper">
+                    <a href="/photos/category" class="tab-name">Categories</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+                <div class="tab-wrapper">
+                    <a href="/photos/photo" class="tab-name">Photos</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+            </div>
+        </div>
+        <div class="categories-wrapper">
+            <div class="top">
+                <h2 class="title">Add category</h2>
+            </div>
+            <div class="categories-body">
+                <form method="POST" action="/photos/category/add"  class="categories-add-form">
+                    <div class="input-wrapper">
+                        <span style="font-weight: bold;">Name: </span>
+                        <input type="text" name="category_name" required>
+                    </div>
+                    <div class="buttons-wrapper">
+                        <button type="button">Save and add another</button>
+                        <button type="button">Save and continue editing</button>
+                        <button type="submit">Save</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum.

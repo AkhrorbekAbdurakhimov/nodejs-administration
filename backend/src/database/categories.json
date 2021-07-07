@@ -1,0 +1,30 @@
+[
+    {
+        "category_id": 1,
+        "category_name": "environment"
+    },
+    {
+        "category_id": 2,
+        "category_name": "cars"
+    },
+    {
+        "category_id": 3,
+        "category_name": "books"
+    },
+    {
+        "category_id": 4,
+        "category_name": "nature"
+    },
+    {
+        "category_id": 5,
+        "category_name": "code"
+    },
+    {
+        "category_id": 6,
+        "category_name": "design"
+    },
+    {
+        "category_id": 7,
+        "category_name": "computers"
+    }
+]

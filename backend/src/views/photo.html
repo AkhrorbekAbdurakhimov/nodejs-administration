@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Nodejs site admin</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Nodejs administration</h1>
+        </div>
+    </header>
+    <main class="main container">
+        <div class="tab">
+            <div class="tab-item">
+                <a href="/photos" class="tab-title">PHOTOS</a>
+                <div class="tab-wrapper">
+                    <a href="/photos/category" class="tab-name">Categories</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+                <div class="tab-wrapper">
+                    <a href="/photos/photo" class="tab-name">Photos</a>
+                    <p class="add-part"><span class="plus">+</span> Add</p>
+                </div>
+            </div>
+        </div>
+        <div class="photos-wrapper">
+            <div class="top">
+                <h2 class="title">Select photo to change</h2>
+                <a href="/photos/photo/add" class="add-photo">
+                    <span>ADD PHOTO</span>
+                    <span class="plus">+</span>
+                </a>
+            </div>
+            <div class="photos-body">
+                <form class="photos-form">
+                    <span>Action: </span>
+                    <select>
+                        <option value="0">---------</option>
+                    </select>
+                    <button>GO</button>
+                    <p><span>0</span> of <span class="number"></span> selected</p>
+                </form>
+                <ul class="photos-list"></ul>
+                <p class="photos-number"><span class="number"></span> photos</p>
+            </div>
+        </div>
+    </main>
+    <script src="./js/request.js"></script>
+    <script src="./js/photo.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+    {
+        "photo_id": 1,
+        "category_name": "code",
+        "picture_url": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701862994.jpg",
+        "picture_title": "Matrix code",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 2,
+        "category_name": "cars",
+        "picture_url": "https://s1.1zoom.ru/big0/458/294916-svetik.jpg",
+        "picture_title": "Shelby Cobra",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 3,
+        "category_name": "books",
+        "picture_url": "https://finkstock.com/wp-content/uploads/2020/03/%D0%97%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0.jpg",
+        "picture_title": "Interesting books",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 4,
+        "category_name": "environment",
+        "picture_url": "https://img2.goodfon.ru/original/2560x1600/5/27/chile-patagonia-nature.jpg",
+        "picture_title": "Chili Mountains",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 5,
+        "category_name": "design",
+        "picture_url": "https://i.pinimg.com/originals/65/f0/de/65f0de457d54100871378b955694d3c0.jpg",
+        "picture_title": "Interiuer bank",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 6,
+        "category_name": "environment",
+        "picture_url": "https://pbs.twimg.com/media/DytPp0PUYAAdh4Z.jpg",
+        "picture_title": "ZForce",
+        "picture_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed facere quae explicabo praesentium quis iusto non voluptatibus neque dignissimos nesciunt. Tempore iure aliquid esse asperiores corrupti iste placeat? Dignissimos, illum."
+    },
+    {
+        "photo_id": 7,
+        "category_name": "computers",
+        "picture_url": "https://artemvm.info/upload/artemvm.info/shop_3/2/3/9/item_239/small_item_239.jpg?v=100",
+        "picture_title": "best computer",
+        "picture_desc": "Операционная система (ОС) Microsoft Windows является наиболее популярной в России и установлена на большинстве настол..."
+    }
+]
